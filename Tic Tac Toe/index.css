@@ -1,0 +1,51 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.title {
+  text-align: center;
+  margin: 40px 10px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 300px;
+  margin: 30px auto;
+  text-align: center;
+  font: 14px;
+  font-weight: bold;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 0 1px #000;
+  border: 1px solid #000;
+  line-height: 100px;
+  font-size: 60px;
+}
+
+.status {
+  text-align: center;
+}
+
+.restart {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #000;
+  text-decoration: none;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.sub_container {
+  display: flex;
+  justify-content: center;
+  visibility: hidden;
+}

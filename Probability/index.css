@@ -1,0 +1,11 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 40;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 24px;
+}
